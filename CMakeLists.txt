@@ -9,6 +9,8 @@ set(BDN_WARNINGS_AS_ERRORS OFF CACHE BOOL "Don't treat warnings as errors")
 
 project(TodoMVC)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS on)
+
 set(CMAKE_CXX_CLANG_TIDY 
   clang-tidy;
   -header-filter="*.h";
