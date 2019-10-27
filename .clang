@@ -1,6 +1,7 @@
 -Wno-pragma-once-outside-header
+-std=c++17
+-isysroot/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
 -I/usr/local/include/ 
--I/usr/local/Cellar/**/*/include/
--I/usr/local/opt/**/include/
+-I /usr/local/opt/**/*/include/**/
 #-header-filter="*.h";
 #-extra-arg-before=-xc++
